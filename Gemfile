@@ -43,4 +43,9 @@ group :development, :test do
   gem 'spring'
 end
 
+group :production do
+  gem 'rhc'
+end
+
 gem 'devise'
+gem "letsrate", :git => "git://github.com/iammyr/letsrate.git"
